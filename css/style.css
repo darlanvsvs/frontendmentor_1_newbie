@@ -7,12 +7,14 @@
 
 body {
   background-color: var(--slate-300);
+  margin: 0px;
 }
 
 .container {
   display: flex;
   justify-content: center;
   margin-bottom: 64px;
+  margin-top: 230px;
   text-align: center;
 }
 
@@ -54,4 +56,10 @@ p {
 .footer {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 375px) {
+  .container {
+    margin-top: 156px;
+  }
 }
