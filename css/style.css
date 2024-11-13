@@ -53,7 +53,7 @@ p {
   letter-spacing: 0.2px;
 }
 
-.footer {
+footer {
   display: flex;
   justify-content: center;
 }
